@@ -256,8 +256,9 @@ button{
 @media only screen and (max-width: 390px) {
     body{
         background-image: url(img/kada-hive.webp);
-        background-size: cover; 
-        background-repeat: no-repeat;
+        background-size: center; 
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
     }
     .about-note{
         background-color: #fff;
