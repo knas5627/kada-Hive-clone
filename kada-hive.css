@@ -270,7 +270,7 @@ button{
     }
     .kada-about{
         background-image: url(img/kada-about.jpeg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 450px;
         height: 500px;
