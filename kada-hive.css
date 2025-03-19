@@ -268,20 +268,21 @@ button{
         padding-bottom: 20px;
         border-radius: 10px;
         font-size: 13px;
+        margin-left: 80px;
      }
      p{
         line-height: 1.2;
-        text-align: left;
+        text-align: justify;
     }
     .kada-about{
         background-image: url(img/kada-about.jpeg);
-        background-size: cover;
+        background-size: center;
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
         border: none;
         border-radius: 10px;
-        margin: 40px;
+        margin-top: 40px;
     }
     .contact-container, .Services-container{
         background-color: #fff;
