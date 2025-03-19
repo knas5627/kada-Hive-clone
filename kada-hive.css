@@ -266,7 +266,7 @@ button{
      }
      p{
         line-height: 1.2;
-        text-align: justify;
+        /* text-align: justify; */
     }
     .kada-about{
         background-image: url(img/kada-about.jpeg);
