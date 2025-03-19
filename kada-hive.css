@@ -252,6 +252,44 @@ button{
     border-radius: 10px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
     padding: 30px;
-
-
+}
+@media only screen and (max-width: 390px) {
+    .about-note{
+        background-color: #fff;
+        width: 90em;
+        height: 600px;
+        border: none;
+        padding: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        font-size: 17x;
+     }
+     p{
+        line-height: 1.2;
+        text-align: justify;
+    }
+    .kada-about{
+        background-image: url(img/kada-about.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 500px;
+        border: none;
+        border-radius: 10px;
+        margin: 50px;
+    }
+    .contact-container, .Services-container{
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        margin: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 20px;
+    }
+    
 }
